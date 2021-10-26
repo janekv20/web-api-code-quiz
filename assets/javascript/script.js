@@ -8,7 +8,7 @@ var timerEl = document.getElementById("time");
 var choicesEl = document.getElementById("choices");
 var submitBtn = document.getElementById("submit");
 var startBtn = document.getElementById("start");
-var initialsEl = document.getElementById("initials");
+var playerEl = document.getElementById("player");
 var feedbackEl = document.getElementById("feedback");
 
 function startQuiz() {
@@ -84,7 +84,6 @@ function questionClick() {
   // move to next question
   currentQuestionIndex++;
 
-  // check if we've run out of questions
   if (currentQuestionIndex === questions.length) {
     endQuiz();
   } else {
@@ -93,10 +92,9 @@ function questionClick() {
 }
 
 function endQuiz() {
-  // stop timer
+ 
   clearInterval(timerId);
 
-  // end screen
   var endScreenEl = document.getElementById("end-screen");
   endScreenEl.removeAttribute("class");
 
@@ -104,7 +102,6 @@ function endQuiz() {
   var finalScoreEl = document.getElementById("final-score");
   finalScoreEl.textContent = time;
 
-  // hide questions section
   questionsEl.setAttribute("class", "hide");
 }
 
