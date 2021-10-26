@@ -1,10 +1,9 @@
 //All quiz questions with choices and correct answer
 const questions = [
   {
-    numb: 1,
-    question: 'Which is one of the 3 languages all web developers must learn?',
+    title: 'Which is one of the 3 languages all web developers must learn?',
     answer: 'Javascript',
-    options: [
+    choices: [
         'Python',
         'React', 
         'Javascript',
@@ -12,10 +11,9 @@ const questions = [
     ]
   },
   {
-    numb: 2,
-    question: 'Which is not a keyword in Javascript to declare variables?',
+    title: 'Which is not a keyword in Javascript to declare variables?',
     answer: 'If',
-    options: [
+    choices: [
       'Var', 
       'If', 
       'Let', 
@@ -23,19 +21,17 @@ const questions = [
     ]
   },
   {
-    numb: 3,
-    question: 'An expression is a combination of values, variables, and operators, which computes to a value.',
+    title: 'An expression is a combination of values, variables, and operators, which computes to a value.',
     answer: 'True',
-    options: [
+    choices: [
       'True', 
       'False'
     ]
   },
   {
-    numb: 4,
-    question: 'All JavaScript identifiers are _______.',
+    title: 'All JavaScript identifiers are _______.',
     answer: 'case sensitive',
-    options: [
+    choices: [
       'capital letters', 
       'case sensitive', 
       'lowercase letters',

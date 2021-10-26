@@ -10,7 +10,7 @@ a {
 }
 
 a:hover {
-  color: #8570a5;
+  color: #0b84a8;
 }
 
 button {
@@ -18,7 +18,7 @@ button {
   margin: 5px;
   cursor: pointer;
   font-size: 100%;
-  background-color: #563d7c;
+  background-color: rgb(5, 58, 94);
   border-radius: 5px;
   padding: 2px 10px;
   color: white;
@@ -27,7 +27,7 @@ button {
 }
 
 button:hover {
-  background-color: #8570a5;
+  background-color: #3673ce;
 }
 
 .choices button {
@@ -77,7 +77,7 @@ li:nth-child(odd) {
   font-size: 120%;
   margin-top: 20px;
   padding-top: 10px;
-  color: gray;
+  color: rgb(109, 9, 202);
   border-top: 2px solid #ccc;
 }
 
